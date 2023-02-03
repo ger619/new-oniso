@@ -8,7 +8,7 @@ function NavBar() {
             div className ="text-center">
             <nav className ="bg-[#9e1b1d] w-100 p-0  ">
                 <div>
-                    <img src={onisanobg} alt="onisa logo" className="w-20 mx-auto bg-white p-2  absolute top-0 left-40 bottom-0" style={{width: "150px"}}/>
+                    <img src={onisanobg} alt="onisa logo" className="w-20 mb-10 bg-white p-2  absolute -top-2 left-40 bottom-0" style={{width: "150px"}}/>
                 </div>
                 <ul className ="flex justify-center text-white">
                     <li className ="flex flex-row  p-2">
