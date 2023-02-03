@@ -5,6 +5,7 @@ import Brands from "./components/Brands";
 import Home from "./components/Home/Home";
 import Footer from "./components/footer/Footer";
 import Loader from "./components/loader/Loader";
+
 function App() {
   const [isLoading, setIsLoading] = useState(false);
 
