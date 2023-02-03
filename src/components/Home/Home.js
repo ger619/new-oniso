@@ -7,18 +7,7 @@ import image2 from "../../images/Slider2.png";
 
 const Home = () => (
   <>
-    <div
-      style={{
-        width: "100%",
-        height: "3px",
-        backgroundColor: "#9e1b1d",
-        position: "absolute",
-        top: "125px",
-        left: "0",
-        zIndex: "100",
-      }}
-    ></div>
-    <div style={{ overflow: "none", paddingTop: "55px" }}>
+    <div style={{ overflow: "none" }}>
       <Carousel fade>
         <Carousel.Item>
           <img src={image} className="d-block w-100" alt="stock" />
