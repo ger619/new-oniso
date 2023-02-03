@@ -18,10 +18,14 @@ const Home = () => (
         zIndex: "100",
       }}
     ></div>
-    <div style={{ overflow: "none", paddingTop: "55px" }}>
+    <div style={{ overflow: "none", paddingTop: "55px", height }}>
       <Carousel fade>
         <Carousel.Item>
-          <img src={image} className="d-block w-100" alt="stock" />
+          <img
+            src={image}
+            className="d-block w-100"
+            alt="stock"
+          />
         </Carousel.Item>
         <Carousel.Item>
           <img

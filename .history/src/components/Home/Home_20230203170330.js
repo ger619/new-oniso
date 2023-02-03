@@ -22,6 +22,7 @@ const Home = () => (
       <Carousel fade>
         <Carousel.Item>
           <img src={image} className="d-block w-100" alt="stock" />
+          style={{ height: "auto" }}
         </Carousel.Item>
         <Carousel.Item>
           <img

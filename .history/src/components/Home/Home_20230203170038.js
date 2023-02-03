@@ -21,14 +21,19 @@ const Home = () => (
     <div style={{ overflow: "none", paddingTop: "55px" }}>
       <Carousel fade>
         <Carousel.Item>
-          <img src={image} className="d-block w-100" alt="stock" />
+          <img
+            src={image}
+            className="d-block w-100"
+            alt="stock"
+            style={{ height: "100vh" }}
+          />
         </Carousel.Item>
         <Carousel.Item>
           <img
             src={image2}
             alt="stock2"
             className="d-block w-100 "
-            style={{ height: "auto" }}
+            style={{ height: "100vh" }}
           />
         </Carousel.Item>
       </Carousel>
