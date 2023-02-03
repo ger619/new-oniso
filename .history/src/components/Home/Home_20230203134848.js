@@ -13,7 +13,7 @@ const Home = () => (
         height: "3px",
         backgroundColor: "#9e1b1d",
         position: "absolute",
-        top: "125px",
+        top: "150px",
         left: "0",
         zIndex: "100",
       }}

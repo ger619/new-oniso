@@ -7,18 +7,19 @@ import image2 from "../../images/Slider2.png";
 
 const Home = () => (
   <>
+    //line across the top of the page
     <div
       style={{
         width: "100%",
-        height: "3px",
-        backgroundColor: "#9e1b1d",
-        position: "absolute",
-        top: "125px",
+        height: "5px",
+        backgroundColor: "",
+        position: "fixed",
+        top: "150px",
         left: "0",
         zIndex: "100",
       }}
     ></div>
-    <div style={{ overflow: "none", paddingTop: "55px" }}>
+    <div style={{ overflow: "none", paddingTop: "60px" }}>
       <Carousel fade>
         <Carousel.Item>
           <img
